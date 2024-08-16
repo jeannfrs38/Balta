@@ -1,0 +1,15 @@
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/obj/Debug/net7.0/Balta.csproj.AssemblyReference.cache
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/obj/Debug/net7.0/Balta.GeneratedMSBuildEditorConfig.editorconfig
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/obj/Debug/net7.0/Balta.AssemblyInfoInputs.cache
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/obj/Debug/net7.0/Balta.AssemblyInfo.cs
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/obj/Debug/net7.0/Balta.csproj.CoreCompileInputs.cache
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/bin/Debug/net7.0/Balta
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/bin/Debug/net7.0/Balta.deps.json
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/bin/Debug/net7.0/Balta.runtimeconfig.json
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/bin/Debug/net7.0/Balta.dll
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/bin/Debug/net7.0/Balta.pdb
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/obj/Debug/net7.0/Balta.dll
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/obj/Debug/net7.0/refint/Balta.dll
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/obj/Debug/net7.0/Balta.pdb
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/obj/Debug/net7.0/Balta.genruntimeconfig.cache
+/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/obj/Debug/net7.0/ref/Balta.dll
