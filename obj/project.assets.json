@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/jeanfrs/.nuget/packages/": {}
+    "C:\\Users\\JeanFRS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/Balta.csproj",
+      "projectUniqueName": "C:\\Projects\\.Net\\BaltaProject\\Balta.csproj",
       "projectName": "Balta",
-      "projectPath": "/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/Balta.csproj",
-      "packagesPath": "/home/jeanfrs/.nuget/packages/",
-      "outputPath": "/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/obj/",
+      "projectPath": "C:\\Projects\\.Net\\BaltaProject\\Balta.csproj",
+      "packagesPath": "C:\\Users\\JeanFRS\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\.Net\\BaltaProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/jeanfrs/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\JeanFRS\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -54,12 +59,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
