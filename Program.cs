@@ -1,4 +1,5 @@
 ﻿using Balta.ContentContext;
+using Balta.NotificationContext;
 
 namespace Balta
 {
@@ -27,11 +28,11 @@ namespace Balta
         courses.Add(courserCSharp);
         courses.Add(courserOOP);
         courses.Add(courseAspNet);
-
+      
         var careers = new List<Career>();
         var careerDotNet = new Career("Especializacao .Net", "especializacao-dotnet");
         var careerItem2 = new CareerItem(2, "Aprendendo C#", "", courserCSharp);
-        var careerItem3 =  new CareerItem(3, "Fundamentos OOP","", courserOOP);
+        var careerItem3 =  new CareerItem(3, "Fundamentos OOP","", null);
         var careerItem = new CareerItem(1, "Comece por aqui", "", courseAspNet);
 
         careers.Add(careerDotNet);
@@ -45,10 +46,16 @@ namespace Balta
           foreach(var careeritem in career.Items.OrderBy(x => x.Order))
           {
             System.Console.WriteLine($"{careeritem.Order} - {careeritem.Title}");
-            System.Console.WriteLine(careeritem.Course.Title);
-            System.Console.WriteLine(careeritem.Course.Level);
+            System.Console.WriteLine(careeritem.Course?.Title);
+            System.Console.WriteLine(careeritem.Course?.Level);
+            foreach (var notifications in careeritem.Notifications)
+          {
+            Console.WriteLine($"{notifications.Property} - {notifications.Menssage}");
           }
+          }
+          
         }
+        
       }
     
   }

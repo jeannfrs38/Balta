@@ -1,6 +1,6 @@
 namespace Balta.NotificationContext
 {
-  class Notification
+  public sealed class Notification
   {
    public Notification()
    {

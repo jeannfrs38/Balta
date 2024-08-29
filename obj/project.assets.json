@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\JeanFRS\\.nuget\\packages\\": {}
+    "/home/jeanfrs/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\.Net\\BaltaProject\\Balta.csproj",
+      "projectUniqueName": "/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/Balta.csproj",
       "projectName": "Balta",
-      "projectPath": "C:\\Projects\\.Net\\BaltaProject\\Balta.csproj",
-      "packagesPath": "C:\\Users\\JeanFRS\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\.Net\\BaltaProject\\obj\\",
+      "projectPath": "/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/Balta.csproj",
+      "packagesPath": "/home/jeanfrs/.nuget/packages/",
+      "outputPath": "/home/jeanfrs/Downloads/bkp/Jean/.Net/Balta/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JeanFRS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/jeanfrs/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -38,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -65,15 +60,11 @@
             "version": "[7.0.20, 7.0.20]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
             "version": "[7.0.20, 7.0.20]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
             "version": "[7.0.20, 7.0.20]"
           }
         ],
@@ -82,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/RuntimeIdentifierGraph.json"
       }
     }
   }
